@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?focdu1');
+  src:  url('fonts/icomoon.eot?focdu1#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?focdu1') format('truetype'),
+    url('fonts/icomoon.woff?focdu1') format('woff'),
+    url('fonts/icomoon.svg?focdu1#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart:before {
+  content: "\e900";
+}
+.icon-diamond:before {
+  content: "\e901";
+}
+.icon-comment:before {
+  content: "\e902";
+}
+.icon-menu2:before {
+  content: "\e9bd";
+}
+.icon-wink:before {
+  content: "\e9e7";
+}
+.icon-arrow-down2:before {
+  content: "\ea3e";
+}
+.icon-google-plus3:before {
+  content: "\ea8d";
+}
+.icon-sina-weibo:before {
+  content: "\ea9a";
+}
+.icon-github:before {
+  content: "\eab0";
+}
