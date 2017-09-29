@@ -3,7 +3,8 @@ $(function(){
   var sidebar = $('#sidebar'),//选择侧栏
     mask = $('.mask'),
     sidebar_trigger = $('#sidebar_trigger'),
-    backButton = $('.back-to-top');
+    backButton = $('.back-to-top'),
+    knowMeBtn = $('#knowMe');
   function showSideBar() 
   {
     mask.fadeIn();
@@ -20,4 +21,8 @@ $(function(){
   sidebar_trigger.on('click', showSideBar);
   mask.on('click', hideSideBar);
  
- })
+  knowMeBtn.on('click', function () {
+    window.location.href="knowMe.html";
+  });
+ 
+})

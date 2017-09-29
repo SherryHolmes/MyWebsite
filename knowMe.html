@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>了解我</title>
+	<!-- 让IE使用最新版本的渲染模式 -->
+	<meta http-equiv="X-UA-Compatible" content="IE-dege,chrome=1">
+	<!-- 强制使宽度适应屏幕宽度，不允许用户缩放 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 	<link rel="stylesheet" href="http://fonts.useso.com/css?family=Josein+Slab:400,700" type="text/css"> -->
+	<link rel="stylesheet" href="css/normalize.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div class="container">
+		<div class="st-container">
+			<!-- nav begin -->
+			<!-- 用来判断当前选中的是哪个页面，直接在css中使用 :checked就可以获取到，不需要使用JS代码 -->
+			<input type="radio" name="radio-set" checked="checked" id="st-control-1">
+			<a href="#st-panel-1">Serendipity</a>
+			<input type="radio" name="radio-set" id="st-control-2">
+			<a href="#st-panel-2">Happiness</a>
+			<input type="radio" name="radio-set" id="st-control-3">
+			<a href="#st-panel-3">Tanquillity</a>
+			<input type="radio" name="radio-set" id="st-control-4">
+			<a href="#st-panel-4">Positivity</a>
+			<input type="radio" name="radio-set" id="st-control-5">
+			<a href="#st-panel-5">Passion</a>
+			<!-- nav end -->
+			
+			<!-- 每个导航对应的页面 -->
+			<div class="st-scroll">
+				<section class="st-panel" id="st-panel-1">
+					<div class="st-desc" data-icon="H"></div>
+					<h2>Serendipity</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, similique, natus voluptatibus fuga nam quod possimus doloremque illo fugiat repellendus veritatis doloribus quae dignissimos suscipit expedita necessitatibus ratione accusamus explicabo.</p>
+				</section>
+				<section class="st-panel st-color" id="st-panel-2">
+					<div class="st-desc" data-icon="2"></div>
+					<h2>Happiness</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, similique, natus voluptatibus fuga nam quod possimus doloremque illo fugiat repellendus veritatis doloribus quae dignissimos suscipit expedita necessitatibus ratione accusamus explicabo.</p>
+				</section>
+				<section class="st-panel" id="st-panel-3">
+					<div class="st-desc" data-icon="B"></div>
+					<h2>Tanquillity</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, similique, natus voluptatibus fuga nam quod possimus doloremque illo fugiat repellendus veritatis doloribus quae dignissimos suscipit expedita necessitatibus ratione accusamus explicabo.</p>
+				</section>
+				<section class="st-panel st-color" id="st-panel-4">
+					<div class="st-desc" data-icon="x"></div>
+					<h2>Positivity</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, similique, natus voluptatibus fuga nam quod possimus doloremque illo fugiat repellendus veritatis doloribus quae dignissimos suscipit expedita necessitatibus ratione accusamus explicabo.</p>
+				</section>
+				<section class="st-panel" id="st-panel-5">
+					<div class="st-desc" data-icon="Ç"></div>
+					<h2>Passion</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, similique, natus voluptatibus fuga nam quod possimus doloremque illo fugiat repellendus veritatis doloribus quae dignissimos suscipit expedita necessitatibus ratione accusamus explicabo.</p>
+				</section>				
+			</div>
+		</div>
+	</div>
+</body>
+</html>

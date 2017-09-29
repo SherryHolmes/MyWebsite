@@ -64,7 +64,7 @@
 }
 
 header {
-	background: rgba(0, 0, 0, 0.4);
+	background: rgba(0, 0, 0, 0.2);
 }
 
 nav {
@@ -127,6 +127,7 @@ nav .logo a {
 hr {
   width: 300px;
   height: 2px;
+  color: #fff;
 }
 
 ul {
@@ -405,7 +406,7 @@ ul.share-group {
 }
 
 .main-wrapper {
-	background: #444 url(../img/banner.jpg);
+	background: #444 url(../img/1142629.jpg);
 	background-attachment: fixed; /*不可移动的*/
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -466,5 +467,6 @@ ul.share-group {
   background: #20a87f;
   width: 80%;
   height: 1px;
+  background: #fff;
 }
 
