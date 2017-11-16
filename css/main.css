@@ -53,9 +53,6 @@
 }
 
 
-
-
-
 /*清除浮动*/
 .clearfix:after{
 	content: '';
@@ -166,12 +163,20 @@ p {
 
 #banner button {
 	padding: 14px 40px;
-	background: #09db7f;
+	background: #093ADB;
+	color: white;
+	font-weight: 400;
 }
 
 #banner .inner .more {
 	margin-top: 250px;
 	color: #fff;
+}
+
+#banner button:hover {
+	color: #E40A0A;
+	font-weight: 700;
+	background-color: #F5CA09;
 }
 
 .arrow {
