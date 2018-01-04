@@ -1,3 +1,5 @@
+// var testEditor;
+
 $(function(){
   'use strict'
   var sidebar = $('#sidebar'),//选择侧栏
@@ -64,5 +66,12 @@ $(function(){
     docStyle.setProperty('--tz', '-12px')
     
   }
+
+  // testEditor = editormd("test-editormd", {
+  //     width   : "1000px",
+  //     height  : 640,
+  //     syncScrolling : "single",
+  //     path    : "bower_components/editor.md/lib/"
+  // });
  
 })

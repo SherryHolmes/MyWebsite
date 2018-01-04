@@ -60,6 +60,10 @@
 	clear: both;
 }
 
+body {
+  overflow-x: hidden; 
+}
+
 header {
 	background: rgba(0, 0, 0, 0.2);
 }
