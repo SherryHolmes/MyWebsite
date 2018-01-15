@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>psd-html</title>
+  <title>SherryHolmes</title>
   <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">  
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -16,9 +16,9 @@
       </div>
       <div class="header-nav clearfloat">
         <ul>
-          <li class="item"><a href="article.html" target="_blank">我的文章</a></li>
-          <li class="item"><a href="force.html" target="_blank">休闲娱乐</a></li>
-          <li class="item"><a href="#" target="_blank">关于作者</a></li>
+          <li class="item"><a href="#article-link" target="_blank">我的文章</a></li>
+          <li class="item"><a href="#fun-link">休闲娱乐</a></li>
+          <li class="item"><a href="#about-link">关于作者</a></li>
           <li class="item"><a href="#footer-link">友情链接</a></li>
         </ul>
       </div>
@@ -39,7 +39,9 @@
   </div>
   <div class="index-menu">
     <div class="menu-tips">
-      <p>My Article</p>
+      <a href="article.html" target="_blank">
+        <p>My Article</p>
+      </a>
     </div>
     <div class="public-container menu-list">
       <ul class="clearfloat">
@@ -71,13 +73,13 @@
           <i class="line line-r"></i>
         </h3>
       </div>
-      <div class="index-panel-body index-fun-list">
+      <div class="index-panel-body index-fun-list" id="fun-link">
         <ul class="clearfloat">
-          <li class="fun-item"><a href="force.html">
+          <li class="fun-item"><a href="force.html" target="_blank">
             <img class="banner-image" src="images/fun2.jpg" alt="">
             <section class="name">力导向图</section>
           </a></li>
-          <li class="fun-item"><a href="enjoy.html">
+          <li class="fun-item"><a href="enjoy.html"  target="_blank">
             <img class="banner-image" src="images/fun1.jpg" alt="">
             <section class="name">美句欣赏</section>
           </a></li>
@@ -86,6 +88,39 @@
     </div>
 
   </div>  
+  <div class="index-about" id="about-link">
+    <div class="about-me public-container">
+      <div class="index-about-title">
+        <h3>ABOUT ME</h3>
+        <i class="line line-l"></i> 
+          <i class="fa fa-heart-o fa-2x"></i>
+        <i class="line line-r"></i>
+      </div>
+      <div class="index-about-contact">
+        <ul>
+          <li>
+            <h3>联系方式</h3>
+            <p>
+              qq:896907062
+              <br> 
+              e-mail:haorui5@163.com
+            </p>
+          </li>
+          <li>
+            <h3>请访问</h3>
+            <p>
+              <a href="https://weibo.com/u/5617153393/home">
+                <i class="fa fa-weibo"></i>
+              </a> 
+              <a href="http://t.qq.com/hr0624222">
+                <i class="fa fa-tencent-weibo"></i>
+              </a>
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
   <footer class="public-footer" id="footer-link">
     <ul class="share-group">
       <li>

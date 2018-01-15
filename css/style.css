@@ -1,7 +1,7 @@
 /* reset.css */
 body, div, dl, dt, dd, ul, li, h1, h2, section,
 h3, h4, h5, h6, input, form, a, p, textarea {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: 幼圆, "Adobe Fan Heiti Std B", Arial, sans-serif;
 }
@@ -162,6 +162,7 @@ ul.share-group {
   height: 570px;
   width: 100%;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .index-banner-bg img {
@@ -172,11 +173,11 @@ ul.share-group {
   position: absolute;
   top: 204px;
   left: 50%;
-  margin-left: -388px;
+  margin-left: -400px;
 }
 
 .index-banner-text .text-logo {
-  width: 776px;
+  width: 800px;
   height: 117px;
   text-align: center;
   color: #fff;
@@ -268,7 +269,7 @@ ul.share-group {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  color: #555;
+  color: #d6cc5b;
 }
 
 .index-menu .menu-item .comment {
@@ -285,7 +286,7 @@ ul.share-group {
 
 .more {
   float: right;
-  color: #555;
+  color: #d6cc5b;
   cursor: pointer;
 }
 
@@ -343,11 +344,12 @@ ul.share-group {
 .index-panel-header {
   width: 100%;
   text-align: center;
+  height: 80px;
+  line-height: 80px;
 }
 
 .index-panel-header h3{
-  width: 100%;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   color:#fff;
   font-size: 40px;
   letter-spacing: 6px;
@@ -359,14 +361,7 @@ ul.share-group {
   border-top: 1px solid #fff;
   vertical-align: middle;
   *margin-top: 22px;
-}
-
-h3 {
-  float: left;
-  margin-right: 48px;
-  font-size: 20px;
-  color: #3d3d3d;
-  font-weight: normal;
+  margin-top: -10px;
 }
 
 
@@ -421,16 +416,74 @@ h3 {
   background-position: 0 -13px;
 }
 
+.index-about {
+  background: #62b9cc;
+}
+
+.index-about .about-me {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.index-about .index-about-title {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.about-me .index-about-title h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #d6cc5b;
+}
+
+.about-me .index-about-title .line {
+  display: inline-block;
+  width: 80px;
+  border-top: 1px solid #d9d9d9;
+  vertical-align: middle;
+  *margin-top: 22px;
+  margin-top: -20px;
+}
+
+.about-me .index-about-title i {
+  color : #d9d9d9;
+}
+
+.index-about-contact ul{
+
+  position: relative;
+  width: 100%;
+  height: 200px;
+  /* text-align: center; */
+  margin-left: 30%;
+  margin-top: 80px;
+}
 
 
+.index-about-contact ul li {
+  float: left;
+  width: 20%;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+}
 
+.index-about-contact ul li h3 {
+  font-size: 22px;
+}
 
+.index-about-contact ul li p {
+  font-size: 18px;
+}
 
-
-
-
-
-
+.index-about-contact ul li a:hover {
+  color: #d6cc5b;
+}
 
 
 
