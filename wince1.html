@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/article.css">
+  <title>调用WinCE控制面板功能</title>
+</head>
+<body>
+  <div class="body-bg"></div>
+  <div class="body-wapper">
+    <div class="body-left">
+    </div>
+    <div class="body-right">
+      <div class="article-content">
+        <h1 class="article-title">调用WinCE控制面板功能</h1>
+        <img src="" alt="">
+        <pre>
+          1、例如我们在人机界面操作终端软件上用到的，调用控制面板的时间和日期设置： 
+            CreateProcess(TEXT("\\windows\\ctlpnl.exe"),TEXT("\\windows\\cplmain.cpl,13"), NULL,
+            NULL, FALSE, 0, NULL, NULL, NULL, &psinfo) 
+            控制面板的程序为：ctlpnl.exe，在控制面板下的各种功能，都在WinCE的Windows目录下的cplmain.cpl文件中，
+            其中13表示时间/日期设置功能。
+            下面列出常用的功能：
+              Internet选项：\\Windows\\inetcpl.cpl,0 
+              存储管理器：\\Windows\\stguil.cpl,0 
+              区域设置：\\Windows\\intll.cpl,0 
+              网络和拨号连接：\\Windows\\connpnl.cpl,0
+              显示分辨率：\\Windows\\HelloCPL.cpl,0 
+              PC连接：\\Windows\\cplmain.cpl,0 
+              正在拨号：\\Windows\\cplmain.cpl,1 
+              键盘：\\Windows\\cplmain.cpl,2
+              密码：\\Windows\\cplmain.cpl,3 
+              所有者：\\Windows\\cplmain.cpl,4 
+              电源：\\Windows\\cplmain.cpl,5 
+              系统：\\Windows\\cplmain.cpl,6 
+              显示：\\Windows\\cplmain.cpl,7
+              鼠标：\\Windows\\cplmain.cpl,8 
+              笔针：\\Windows\\cplmain.cpl,9 
+              音量和声音：\\Windows\\cplmain.cpl,10 
+              输入面板：\\Windows\\cplmain.cpl,11
+              日期/时间：\\Windows\\cplmain.cpl,13 
+              证书：\\Windows\\cplmain.cpl,14 2
+          2、触屏校准部分是这样调用的： 
+            CreateProcess(TEXT("TouchCalibrate.exe"),NULL,NULL,NULL,FALSE,CREATE_NEW_CONSOLE,NULL,NULL,NULL,&psinfo)
+        </pre>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
